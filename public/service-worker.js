@@ -2,6 +2,7 @@ const FILES_TO_CACHE = [
     '/',
     '/assets/css/style.css',
     '/index.html',
+    '/assets/db.js',
     '/dist/manifest.json',
     '/dist/bundle.js',
     '/dist/icon_72x72.png',
@@ -17,6 +18,7 @@ const FILES_TO_CACHE = [
   const STATIC_CACHE = "static-cache-v1";
   const RUNTIME_CACHE = "runtime-cache";
   
+  // installation of service worker
   self.addEventListener("install", event => {
     event.waitUntil(
       caches
