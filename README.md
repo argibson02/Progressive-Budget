@@ -14,13 +14,13 @@
 This is a budget tracker web app that utilizes progressive web application features! 
 
 Features:
-* Track cash income and and expenditures.
-* After an initial load, the app can be used both on and offline.
-* Visualizes cashflow with the tracking graph. 
+* Track your income and expenditures.
+* After an initial load, this app can be used both online and offline.
+* Visualize your cashflow with the tracking graph. 
 
-**[Click this link to go to the Progressive Budget Tracker](https://fast-dusk-57055.herokuapp.com/)**.
+**[Click this link to go to the Progressive Web App Budget Tracker](https://fast-dusk-57055.herokuapp.com/)**.
 
-![Demo GIF of the Progressive Budget Tracker](./images/progressive-budget-tracker-demo.gif)
+![Demo GIF of the Progressive Web App Budget Tracker](./images/progressive-budget-tracker-demo.gif)
 
  <br />
 
@@ -51,7 +51,7 @@ Any modern internet browser will do! Just navigate to **[the webpage](https://fa
 
 ## Practices Used
 * Agile style User Story and Acceptance Criteria.
-* Progressive web application practices. 
+* Progressive web application(PWA) practices. 
 
 ## Authors
 **Alexander Gibson** 
