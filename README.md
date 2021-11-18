@@ -20,7 +20,7 @@ Features:
 
 **[Click this link to go to the Progressive Budget Tracker](https://fast-dusk-57055.herokuapp.com/)**.
 
-![Demo GIF of the Progressive Budget Tracker](./images/progressive-budget-demo.gif)
+![Demo GIF of the Progressive Budget Tracker](./images/progressive-budget-tracker-demo.gif)
 
  <br />
 
