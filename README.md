@@ -1,4 +1,4 @@
-# Progressive-Budget
+# Progressive Web App Budget Tracker
   -----------------
 
 ## Table of Contents
@@ -11,21 +11,22 @@
 
 
 ## Description
-This is a Fitness Tracker webapp built with MongoDB, Express.js, and Node.js.
+This is a budget tracker web app that utilizes progressive web application features! 
 
 Features:
-* Track both cardio and weight workouts.
-* 
+* Track cash income and and expenditures.
+* After an initial load, the app can be used both on and offline.
+* Visualizes cashflow with the tracking graph. 
 
-**[Click this link to go to the Fitness Tracker](https://ancient-scrubland-94310.herokuapp.com/)**.
+**[Click this link to go to the Progressive Budget Tracker](https://fast-dusk-57055.herokuapp.com/)**.
 
-![Demo GIF of the Fitness Tracker](./images/fitness-tracker-demo.gif)
+![Demo GIF of the Progressive Budget Tracker](./images/progressive-budget-demo.gif)
 
  <br />
 
 
 ## Installation Instructions and Getting Started
-Any modern internet browser will do! Just navigate to **[the webpage](https://ancient-scrubland-94310.herokuapp.com/)**.
+Any modern internet browser will do! Just navigate to **[the webpage](https://fast-dusk-57055.herokuapp.com/)**.
 
 
 ## Built With
@@ -36,7 +37,8 @@ Any modern internet browser will do! Just navigate to **[the webpage](https://an
 * [Node.js](https://nodejs.org/en/)
 * [Express.js](https://expressjs.com/)
 * [MongoDB](https://www.mongodb.com/)
-* [Dotenv](https://www.npmjs.com/package/dotenv)
+* [IndexedDB](https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API)
+* [Webpack-pwa-manifest](https://www.npmjs.com/package/webpack-pwa-manifest)
 
 
 ## Technologies Used
@@ -45,10 +47,11 @@ Any modern internet browser will do! Just navigate to **[the webpage](https://an
 * [GitHub](https://github.com/)
 * [Insomnia](https://insomnia.rest/)
 * [Heroku](https://www.heroku.com/)
+* [MongoDB Atlas](https://www.mongodb.com/atlas/database)
 
 ## Practices Used
 * Agile style User Story and Acceptance Criteria.
-
+* Progressive web application practices. 
 
 ## Authors
 **Alexander Gibson** 
