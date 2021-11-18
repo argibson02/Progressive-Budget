@@ -2,10 +2,13 @@ const WebpackPwaManifest = require("webpack-pwa-manifest");
 const path = require("path");
 
 const config = {
-  entry: "./public/assets/index.js",
+  entry: {
+    index: "./public/assets/index.js",
+    db: "./public/assets/db.js",
+  },
   output: {
     path: __dirname + "/public/dist",
-    filename: "bundle.js"
+    filename: "[name]-bundle.js"
   },
   mode: "production",
   plugins: [
@@ -25,7 +28,7 @@ const config = {
           src: path.resolve(
             __dirname,
             "public/assets/icons/icon-512x512.png"
-            ),
+          ),
           // plugin generates an image for each size in array
           size: [72, 96, 128, 144, 152, 192, 384, 512]
         }

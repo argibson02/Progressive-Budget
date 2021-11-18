@@ -54,7 +54,7 @@ function checkDatabase() {
         .then(() => {
           // if successful, open a transaction on your pending db
           const transaction = db.transaction(["pending"], "readwrite");
-          console.log("saved via offline");
+          console.log("Offline actions have been successfully sent to and received by server.");
           // access your pending object store
           const store = transaction.objectStore("pending");
 
